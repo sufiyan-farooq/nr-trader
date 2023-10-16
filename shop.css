@@ -1,0 +1,140 @@
+
+
+@font-face {
+    font-family: gilroybold;
+    src: url(images&font/Gilroy-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: gilroy;
+    src: url(images&font/Gilroy-Regular.ttf);
+  }
+  
+  .navbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    position: fixed !important;
+      width: 100%; /* Full width */
+      background-color: #fff;
+     
+  
+  }
+  
+  .box{
+    position:absolute;
+    z-index: -1;
+  }
+  
+  .navbar-brand img{
+    width: 140px;
+    height: 70px;
+    margin-left: 30px;
+  }
+  
+  .nav-item a{
+    font-family: gilroy;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .navbar-nav li a:hover{
+    background-color: #c2272d;
+    border-radius: 10px;
+    color: #fff !important;
+  }
+  .search button{
+    color: #c2272d;
+    border-color: #c2272d;
+    font-family: gilroybold;
+    margin-right: 40px;
+  }
+  .search button:hover{
+    background-color: #c2272d;
+    color: white;
+  }
+
+
+.cards-boxes1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    margin-left: 80px;
+ 
+  }
+  
+  
+  
+  
+  .card {
+    width: 250px;
+    height: 400px;
+    padding: .8em;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   }
+   
+   .card-img {
+    
+    height: 40%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+   
+   .card-info {
+    padding-top: 40px;
+   }
+   
+   svg {
+    width: 20px;
+    height: 20px;
+   }
+   
+   .card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+   }
+   
+   /*Text*/
+   .text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+   }
+   
+   .text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+   }
+   
+   /*Button*/
+   .card-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+   }
+   .card-img img{
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+   }
+   
+   /*Hover*/
+   .card-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+   
+   .card-button:hover {
+    border: 1px solid #c2272d;
+    background-color: #c2272d;
+   }
+  
